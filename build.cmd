@@ -1,0 +1,1 @@
+x86_64-w64-mingw32-g++ Loong.cpp AST.cpp AutoLock.cpp CallStack.cpp GlobalData.cpp Interpreter.cpp Lexer.cpp Library.cpp Parser.cpp Sal.cpp Token.cpp Variable.cpp -Iinclude -std=c++11 -static-libgcc -static-libstdc++ -o loong -lkernel32 -lws2_32
